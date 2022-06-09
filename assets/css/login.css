@@ -1,0 +1,79 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-size: 16px;
+}
+body {
+    background: #ff7e5f;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #feb47b, #ff7e5f);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #feb47b, #ff7e5f); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+.container {
+    max-width: 560px;
+    margin: 50px auto;
+    background-color: white;
+    border-radius: 10px;
+}
+h1 {
+    text-align: center;
+    font-size: 30px;
+    color: black;
+   padding: 30px 0;
+}
+input {
+    display: block;
+    padding: 10px;
+    margin: 10px auto;
+    width: 80%;
+    border: 2px solid gray;
+    border-radius: 5px;
+
+}
+.login button {
+    display: block;
+    font-weight: bold;
+    color: white;
+    width: 40%;
+    padding: 10px;
+    margin: 10px auto;
+    border: 2px solid gray;
+    border-radius: 5px;
+    background: #FEB48A;
+}
+h3{
+    text-align: center;
+}
+.altlogin  {
+    width: 100%;
+    text-align: center;
+}
+.altlogin button {
+    background: white;
+    border: 1px solid gray;
+    margin: 10px;
+    padding: 10px;
+}
+.facebook{
+    color:	#4267B2 ;
+    font-weight: bold;
+}
+.google{
+    color:	#db3236	 ;
+    font-weight: bold;
+}
+.fa-brands {
+    padding-right: 5px;
+}
+p{
+    text-align: center;
+    font-size: large;
+    font-weight: bold;
+    padding: 20px;
+   
+}
+p a {
+    text-decoration: none;
+    font-size: large;
+    font-weight: bold;
+}
